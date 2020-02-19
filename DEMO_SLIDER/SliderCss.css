@@ -1,0 +1,61 @@
+﻿.NoPaddingMarging
+{
+   margin:0px;
+   padding:0px;
+}
+#MainDiv
+{
+    position:relative;
+    width:800px;
+}
+#child img
+{
+    position: absolute;
+    top: 50%;
+    opacity: 0.4;
+}
+
+#Next
+{
+    right:2%;
+}
+#Previous
+{
+    left:2%;
+    
+}
+#child img:hover
+{
+    cursor:pointer;
+    opacity:1;
+}
+
+#slider
+{
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+#slider .slides
+{
+    display: block;
+    width: 8000px;
+    margin: 0;
+    padding: 0;
+}
+ul li img
+{
+    width:200px;
+    height:120px;
+}
+#slider .slide
+{
+    float: left;
+    list-style-type:none;
+    height:120px;
+}
+.slides li img:hover
+{
+    cursor:pointer;
+    opacity: 0.5;
+}
